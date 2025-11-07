@@ -55,28 +55,11 @@ and smarter communication within rural communities.
 
 ## **Risks**
 
-  ----------------------------------------------------------------------------
-  Type        Description        Likelihood       Impact      Mitigation
-  ----------- ------------------ ---------------- ----------- ----------------
-  Resource    Limited or no      High             High        Implement
-              internet                                        offline caching
-              connectivity in                                 and auto-sync
-              rural areas                                     when online
-
-  Technical   AI model           Medium           High        Fine-tune
-              misclassifying                                  TensorFlow Lite
-              complaints                                      model and expand
-                                                              dataset
-
-  Usability   Villagers may find Medium           Medium      Conduct user
-              app difficult to                                testing and
-              use                                             simplify UI
-                                                              design
-
-  Data        Security of        Low              High        Use Firebase
-              complaint data                                  authentication
-                                                              and secure
-                                                              database access
-  ----------------------------------------------------------------------------
+| Type        | Description                     | Likelihood | Impact | Mitigation |
+|--------------|----------------------------------|-------------|---------|-------------|
+| **Resource** | Limited or no internet connectivity in rural areas | High | High | Implement offline caching and auto-sync when online |
+| **Technical** | AI model misclassifying complaints | Medium | High | Fine-tune TensorFlow Lite model and expand dataset |
+| **Usability** | Villagers may find app difficult to use | Medium | Medium | Conduct user testing and simplify UI design |
+| **Data** | Security of complaint data | Low | High | Use Firebase authentication and secure database access |
 
 
