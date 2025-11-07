@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".OwnerActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/owner_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/owner_animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/creative"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/materialTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/carrois_gothic"
+            android:text="@string/imp_note"
+            android:textColor="@color/red"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/owner_animation_view" />
+
+        <LinearLayout
+            android:id="@+id/info_txt"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialTextView">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/Owner_desc"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/vilage"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView6"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/era"
+                    android:textColor="@color/primary_green"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@id/materialTextView2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/odesc"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@id/materialTextView8"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/tm1"
+                    android:textColor="@color/primary_green"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView6" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/comma"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView9"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView2" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/tm2"
+                    android:textColor="@color/primary_green"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView3"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView8" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/comma"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView10"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView11" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/tm3"
+                    android:textColor="@color/primary_green"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView9" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/comma"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView12"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView3" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/tm4"
+                    android:textColor="@color/primary_green"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView4"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView10" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/comma"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView5"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView10" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/at1"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView12" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/tm5"
+                    android:textColor="@color/primary_green"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView7"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView4" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/at2"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView13"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView5" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/at3"
+                    android:textColor="@color/primary_green"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toEndOf="@+id/materialTextView14"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView5" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/materialTextView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/carrois_gothic"
+                    android:text="@string/at4"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/materialTextView7" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/materialTextView17"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/carrois_gothic"
+            android:gravity="center"
+            android:text="@string/copy_right"
+            android:textColor="@color/red"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/info_txt" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/materialTextView18"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/carrois_gothic"
+            android:gravity="center"
+            android:text="@string/good_note"
+            android:textColor="@color/primary_green"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialTextView17" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/materialTextView19"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/carrois_gothic"
+            android:gravity="center"
+            android:text="@string/thank_you_note"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialTextView18" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/contact_button"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/contact_note"
+            android:textColor="@color/primary_green"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/materialTextView19" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

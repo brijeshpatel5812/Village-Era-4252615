@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ગામડાનો યુગ</string>
+    <string name="vilage">ગામડાનો</string>
+    <string name="login_vilage">ગામડાના</string>
+    <string name="era">યુગ</string>
+    <string name="login_era">યુગ મા</string>
+    <string name="welcome">સ્વાગત છે,</string>
+    <string name="login_txt">તમારા એકાઉન્ટમાં લોગિન કરો</string>
+    <string name="signup_txt"><u>સાઇનઅપ</u></string>
+    <string name="signup_sec_txt">કરો</string>
+    <string name="login_signup_txt"><u>પ્રવેશ કરો</u></string>
+
+    <string name="tandc_txt"><u>terms and conditions.</u></string>
+    <string name="tandc_txt_signup">સાઇન અપ કરીને તમે અમારા નિયમો અને \nશરતો સાથે સંમત થાઓ છો.</string>
+    <string name="get_start">Let\'s Get Started</string>
+    <string name="next_txt">Next</string>
+    <string name="skip_txt">Skip</string>
+    <string name="swipe_txt">Swipe</string>
+
+    <string name="username_txt">નામ</string>
+    <string name="password_txt">પાસવર્ડ</string>
+    <string name="email_txt">ઈ - મેઈલ</string>
+    <string name="phone_txt">ફોન નંબર</string>
+    <string name="logn_txt">પ્રવેશ કરો</string>
+    <string name="pass_forget">પાસવર્ડ ભૂલી ગયા છો ?</string>
+    <string name="remember_me">મને યાદ રાખો</string>
+    <string name="dont_account">તમારી પાસે એકાઉન્ટ નથી,</string>
+
+    <string name="create_account">ચાલો તમારું એકાઉન્ટ બનાવીએ</string>
+    <string name="new_to">નવા છો,</string>
+    <string name="signup_label">સાઇનઅપ</string>
+    <string name="have_account">પહેલેથી એકાઉન્ટ છે ?</string>
+    <string name="code_txt">OTP code</string>
+    <string name="verification_txt">Verification code has\n been sent for</string>
+    <string name="forget_password_txt">તમારા એકાઉન્ટનો ઈ - મેઈલ દાખલ કરો</string>
+    <string name="forget_request_text">વિનંતી મોકલો</string>
+
+    <string name="logout">લૉગ આઉટ</string>
+    <string name="home_label">ઘર</string>
+    <string name="add_post">પોસ્ટ ઉમેરો</string>
+    <string name="profile">પ્રોફાઇલ</string>
+    <string name="post">નવી પોસ્ટ</string>
+    <string name="view_post">જુઓ પોસ્ટ</string>
+    <string name="all_posts">બધી પોસ્ટ</string>
+
+    <string name="cancel_label">રદ કરો</string>
+    <string name="update_label">અપડેટ કરો</string>
+    <string name="call_label">ફોન કરો</string>
+
+    <string name="post_heading1">ચલો પોસ્ટ કરીયે,</string>
+    <string name="post_village">ગામડા ના</string>
+    <string name="post_era">યુગમા</string>
+    <string name="post_heading_desc">પોસ્ટ ની વિગતો અહીં દાખલ કરો</string>
+    <string name="post_label">પોસ્ટ કરો</string>
+    <string name="post_txt">પોસ્ટ નો પ્રકાર</string>
+    <string name="post_description">પોસ્ટ નુ વર્ણન</string>
+
+    <string name="imp_note"><b>મહત્વની સુચના :</b></string>
+    <string name="Owner_desc">આ એપ </string>
+    <string name="odesc"> નુ નિર્માણ </string>
+    <string name="tm1">ધરમ ભોજાણી</string>
+    <string name="tm2">ગૌતમ ગોકલાણી</string>
+    <string name="tm3">મોહિત સોલંકી</string>
+    <string name="tm4">સાજીદા શ્રીમાળી</string>
+    <string name="at1">દ્વારા અને </string>
+    <string name="tm5">વિવેક પડિઆ</string>
+    <string name="at2"> ના </string>
+    <string name="at3">નેતૃત્વ</string>
+    <string name="at4">હેઠળ બનાવવામાં આવ્યું છે.</string>
+    <string name="comma">, </string>
+    <string name="Owner_desc2">આ એપ નુ માર્કેટ માં વેચાણ ગેરકાયદેસર અને સજાપાત્ર છે.</string>
+    <string name="copy_right">આ એપ્લિકેશન ના કોપીરાઈટ આ લોકો સાથે સંકળાયેલા છે.</string>
+    <string name="good_note">અમે શ્રેષ્ઠ સુવિધા માટે ની ખાતરી આપીએ છીએ.</string>
+    <string name="thank_you_note">આપના વાંચવા બાદલ આપનો આભાર.</string>
+    <string name="contact_note">સંપર્ક કરો</string>
+    <string name="swipe_down">વધુ માટે નીચે સ્વાઇપ કરો</string>
+
+</resources>
